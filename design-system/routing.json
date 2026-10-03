@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "defaults": {
+    "carrier": "poster-a4-portrait",
+    "stage": "full-bleed-single-stage",
+    "artifact": "dominant-centered-artifact",
+    "header": "micro-brand-row",
+    "footer": "three-column-info-grid",
+    "output": "artifact-or-production-spec"
+  },
+  "routes": [
+    {
+      "id": "route-event-announcement",
+      "when": "input announces a dated event, earnings call, show, or release",
+      "use": {
+        "stage": "full-bleed-single-stage",
+        "artifact": "dominant-centered-artifact",
+        "footer": "three-column-info-grid"
+      }
+    },
+    {
+      "id": "route-full-bleed-artifact",
+      "when": "the visual itself is the message (illustration, object, photograph)",
+      "use": {
+        "stage": "full-bleed-single-stage",
+        "artifact": "edge-to-edge-artifact",
+        "footer": "three-column-info-grid"
+      }
+    },
+    {
+      "id": "route-contained-artifact",
+      "when": "the artifact needs breathing room on a quiet field",
+      "use": {
+        "stage": "quiet-paper-stage",
+        "artifact": "contained-centered-artifact",
+        "footer": "three-column-info-grid"
+      }
+    }
+  ]
+}

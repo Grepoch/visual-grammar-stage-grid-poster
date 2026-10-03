@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "compositions": [
+    {
+      "id": "stage-artifact-grid",
+      "summary": "The entire canvas is a single colored stage. A dominant artifact occupies roughly the middle 55-80% height and 50-99% width. A micro header row sits at 2-6% height; a fixed three-column info grid anchors the bottom at 89-97% height.",
+      "zones": {
+        "header": {"y": "3-6%", "columns": 2, "content": "brand left, site right, one line, tiny caps"},
+        "stage": {"y": "8-88%", "object": "one dominant artifact, horizontally centered, vertically spanning most of the stage"},
+        "footer": {"y": "89-97%", "columns": [5, 49, 73], "content": "identity block / first fact column / second fact column"}
+      },
+      "fallback": "full-bleed brand field, centered artifact, three-column footer"
+    },
+    {
+      "id": "edge-to-edge-artifact",
+      "summary": "The artifact bleeds to all edges and becomes the stage; type is reversed out of it or set in solid blocks on top.",
+      "zones": {
+        "header": {"y": "2-6%", "content": "minimal, often only brand and site"},
+        "stage": {"y": "0-100%", "object": "full-bleed photograph or illustration with internal type blocks"}
+      },
+      "fallback": "full-bleed image with one large type block at 44-56% height"
+    },
+    {
+      "id": "contained-artifact-quiet",
+      "summary": "A near-paper field holds one contained centered artifact at roughly 50-76% width and 20-79% height; generous equal margins.",
+      "zones": {
+        "header": {"y": "3-6%"},
+        "stage": {"y": "20-79%", "object": "centered contained artifact"},
+        "footer": {"y": "89-97%"}
+      },
+      "fallback": "paper field, centered artifact at 60% width, standard footer"
+    }
+  ]
+}

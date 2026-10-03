@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2481" height="2481" viewBox="0 0 2481 2481">
+  <rect width="2481" height="2481" fill="#6A01FF"/>
+  <text x="124" y="130" font-family="Helvetica, Arial, sans-serif" font-size="42" letter-spacing="9" fill="#F8F8F8">STUDIO</text>
+  <text x="2357" y="130" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="42" letter-spacing="9" fill="#F8F8F8">studio.example</text>
+  <!-- dominant artifact: oversized display type as the artifact itself -->
+  <text x="1240" y="1330" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="430" font-weight="700" fill="#F8F8F8">SIDE B</text>
+  <rect x="1090" y="1470" width="300" height="14" fill="#FBBB00"/>
+  <text x="124" y="2250" font-family="Helvetica, Arial, sans-serif" font-size="66" font-weight="700" fill="#F8F8F8">Late Night Loop</text>
+  <text x="124" y="2330" font-family="Helvetica, Arial, sans-serif" font-size="50" fill="#E4D6FF">Selected recordings</text>
+  <text x="1216" y="2250" font-family="Helvetica, Arial, sans-serif" font-size="46" fill="#E4D6FF">Every Friday</text>
+  <text x="1216" y="2316" font-family="Helvetica, Arial, sans-serif" font-size="46" fill="#E4D6FF">10 PM to midnight.</text>
+  <text x="1810" y="2250" font-family="Helvetica, Arial, sans-serif" font-size="46" fill="#E4D6FF">Hosted by R. Okafor</text>
+  <text x="1810" y="2316" font-family="Helvetica, Arial, sans-serif" font-size="46" fill="#E4D6FF">Studio archive, 2026.</text>
+</svg>

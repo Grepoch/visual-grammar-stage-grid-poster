@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "materials": [
+    {
+      "id": "brand-stage-fields",
+      "summary": "One unbroken ink-saturated field sets the brand tone for the whole canvas: violet, cobalt, forest, signal red, or amber-on-black.",
+      "fields": [
+        {"id": "violet-ink", "hex": "#6A01FF", "role": "full-bleed stage"},
+        {"id": "cobalt-ink", "hex": "#3367F8", "role": "full-bleed stage"},
+        {"id": "forest-ink", "hex": "#246232", "role": "full-bleed stage"},
+        {"id": "signal-red", "hex": "#C72828", "role": "full-bleed stage"},
+        {"id": "amber-on-black", "hex": "#FBBB00", "role": "accent field or stage inversion"}
+      ]
+    },
+    {
+      "id": "quiet-paper-fields",
+      "summary": "Near-white paper fields for contained artifacts; ink type only, no field decoration.",
+      "fields": [
+        {"id": "paper-neutral", "hex": "#F9F9F9", "role": "quiet stage"},
+        {"id": "ink-dark", "hex": "#161616", "role": "type"}
+      ]
+    },
+    {
+      "id": "deep-black-fields",
+      "summary": "Near-black stages for photography-first posters; one accent at most.",
+      "fields": [
+        {"id": "ink-black", "hex": "#0A0A0A", "role": "stage"},
+        {"id": "paper-white", "hex": "#F8F8F8", "role": "type"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "contract_version": 1,
+  "slug": "stage-grid-poster",
+  "name": "Stage Grid Poster",
+  "version": "0.2.0",
+  "status": "released",
+  "public_entry": "SKILL.md",
+  "required_files": [
+    "SKILL.md",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "ASSET-LICENSE.md",
+    "REFERENCES.md",
+    "release.json",
+    ".gitignore",
+    "scripts/validate_public.py",
+    ".github/workflows/validate.yml",
+    "evals/evals.json",
+    "evals/schema.json",
+    "design-system/routing.json",
+    "design-system/compositions.json",
+    "design-system/materials.json",
+    "design-system/typography.json",
+    "design-system/constraints.json"
+  ],
+  "source_material_count": 9,
+  "examples": [
+    "examples/example-meridian-earnings.svg",
+    "examples/example-mono-show.svg",
+    "examples/example-quiet-paper.svg",
+    "examples/example-side-b-square.svg"
+  ],
+  "public_boundaries": {
+    "contains_private_training_notes": false,
+    "contains_source_reconstruction": false,
+    "attribution_file": "REFERENCES.md"
+  }
+}

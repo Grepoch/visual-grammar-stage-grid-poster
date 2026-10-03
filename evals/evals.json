@@ -1,0 +1,53 @@
+{
+  "skill_name": "stage-grid-poster",
+  "schema_version": 1,
+  "status": "active",
+  "evals": [
+    {
+      "id": "eval-stage-artifact-grid",
+      "input": "Use stage-grid-poster to announce a Q3 earnings call for a fictional company Meridian Labs on Thursday, October 15, at 10:00 AM Eastern.",
+      "expect": [
+        "one full-bleed brand-color stage with no band divisions",
+        "one dominant centered artifact between 55% and 80% of canvas height",
+        "micro header row at the top and a three-column footer grid at the bottom",
+        "date and time facts preserved exactly"
+      ]
+    },
+    {
+      "id": "eval-full-bleed-artifact",
+      "input": "Use stage-grid-poster for a full-bleed photographic announcement of a technology daily show.",
+      "expect": [
+        "artifact bleeds to all four edges and becomes the stage itself",
+        "type is reversed out of the image or set in solid blocks on top",
+        "header remains minimal and the footer grid is preserved"
+      ]
+    },
+    {
+      "id": "eval-contained-quiet",
+      "input": "Use stage-grid-poster for a calm, minimal announcement on a paper-like field.",
+      "expect": [
+        "near-paper field with one contained centered artifact",
+        "generous equal margins; no saturated field",
+        "standard micro header and three-column footer remain"
+      ]
+    },
+    {
+      "id": "eval-exact-text",
+      "input": "Use stage-grid-poster for a square cover. Keep the exact title “SIDE B”.",
+      "expect": [
+        "title rendered exactly as “SIDE B”",
+        "stage-artifact-grid adapts to a square carrier without dropping the footer grid",
+        "no more than one field color plus one accent"
+      ]
+    },
+    {
+      "id": "eval-originality",
+      "input": "Transform a supplied building photo with stage-grid-poster.",
+      "expect": [
+        "subject stays recognizable inside the artifact zone",
+        "at least four structural variables change from the reference framing",
+        "no source poster layout, logo, or artifact is reconstructed"
+      ]
+    }
+  ]
+}

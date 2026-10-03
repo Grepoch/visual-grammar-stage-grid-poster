@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2481" height="3508" viewBox="0 0 2481 3508">
+  <rect width="2481" height="3508" fill="#0A0A0A"/>
+  <text x="124" y="150" font-family="Helvetica, Arial, sans-serif" font-size="46" letter-spacing="10" fill="#F8F8F8">NIGHTWAVE</text>
+  <text x="2357" y="150" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="46" letter-spacing="10" fill="#F8F8F8">nightwave.example</text>
+  <!-- dominant artifact: high-contrast mountain silhouette -->
+  <path d="M 300 2300 L 900 1050 L 1300 1800 L 1650 1150 L 2200 2300 Z" fill="#F8F8F8"/>
+  <circle cx="1700" cy="780" r="140" fill="#FBBB00"/>
+  <text x="124" y="3220" font-family="Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#F8F8F8">Nightwave</text>
+  <text x="124" y="3310" font-family="Helvetica, Arial, sans-serif" font-size="56" fill="#B9B9B9">Technology's daily show</text>
+  <text x="1216" y="3220" font-family="Helvetica, Arial, sans-serif" font-size="50" fill="#B9B9B9">Every weekday</text>
+  <text x="1216" y="3290" font-family="Helvetica, Arial, sans-serif" font-size="50" fill="#B9B9B9">11 AM to 2 PM PT.</text>
+  <text x="1216" y="3360" font-family="Helvetica, Arial, sans-serif" font-size="50" fill="#B9B9B9">With rotating hosts.</text>
+  <text x="1810" y="3220" font-family="Helvetica, Arial, sans-serif" font-size="50" fill="#B9B9B9">Created by Nightwave.</text>
+  <text x="1810" y="3290" font-family="Helvetica, Arial, sans-serif" font-size="50" fill="#B9B9B9">Designed in 2026.</text>
+  <text x="1810" y="3360" font-family="Helvetica, Arial, sans-serif" font-size="50" fill="#B9B9B9">Streamed live.</text>
+</svg>

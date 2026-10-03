@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "must": [
+    "treat the canvas as one continuous stage: no borders, frames, or panel divisions",
+    "place exactly one dominant artifact in the middle zone; it must own 55-80% of the canvas height",
+    "keep the micro header row at 3-6% height with brand left and site/co-brand right",
+    "anchor the footer at 89-97% height as a three-column information grid with columns at approximately 5%, 49%, and 73% left edges",
+    "horizontally center the visual weight of the artifact",
+    "keep all three footer columns on one shared baseline grid",
+    "preserve exact user-supplied names, dates, times, and facts"
+  ],
+  "must_not": [
+    "split the poster into stacked colored bands",
+    "add decorative borders, shadows, bevels, or frames around the stage",
+    "use more than one field color plus one accent per poster",
+    "place the identity block or fact columns anywhere except the footer grid",
+    "scale header type above 1.5% of canvas height",
+    "reproduce source logos, signatures, exact layouts, or source-specific artifacts"
+  ]
+}

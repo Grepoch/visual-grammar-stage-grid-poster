@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "status": "active",
+  "roles": [
+    {
+      "id": "micro-header-row",
+      "summary": "A single tiny uppercase row at the top: brand name left, site or co-brand right. Never larger than 1% of canvas height.",
+      "usage": "header zone only",
+      "tracking": "wide",
+      "case": "uppercase"
+    },
+    {
+      "id": "footer-identity-block",
+      "summary": "Footer column 1: company or show name in a medium title (about 2% canvas height) with a smaller subtitle line beneath.",
+      "usage": "footer column 1",
+      "hierarchy": "title + subtitle lockup"
+    },
+    {
+      "id": "footer-fact-columns",
+      "summary": "Footer columns 2 and 3: three short lines each, sentence case, tight leading, aligned to the same baseline grid as column 1.",
+      "usage": "footer columns 2-3",
+      "leading": "tight",
+      "max_lines_per_column": 3
+    },
+    {
+      "id": "artifact-typography",
+      "summary": "Inside the artifact, display type may be oversized (8-12% height) and is the only place scale drama is allowed.",
+      "usage": "within stage artifact",
+      "scale": "display only"
+    }
+  ]
+}

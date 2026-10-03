@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2481" height="3508" viewBox="0 0 2481 3508">
+  <rect width="2481" height="3508" fill="#3367F8"/>
+  <text x="124" y="150" font-family="Helvetica, Arial, sans-serif" font-size="46" letter-spacing="10" fill="#F8F8F8">MERIDIAN</text>
+  <text x="2357" y="150" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="46" letter-spacing="10" fill="#F8F8F8">meridianlabs.example</text>
+  <!-- dominant centered artifact: concentric orbit diagram -->
+  <g stroke="#F8F8F8" fill="none">
+    <circle cx="1240" cy="1650" r="620" stroke-width="16"/>
+    <circle cx="1240" cy="1650" r="420" stroke-width="10" stroke-dasharray="4 26"/>
+    <circle cx="1240" cy="1650" r="220" stroke-width="10"/>
+  </g>
+  <circle cx="1240" cy="1030" r="52" fill="#FBBB00"/>
+  <circle cx="1240" cy="1650" r="72" fill="#F8F8F8"/>
+  <!-- footer three-column grid -->
+  <text x="124" y="3220" font-family="Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#F8F8F8">Meridian Labs</text>
+  <text x="124" y="3310" font-family="Helvetica, Arial, sans-serif" font-size="56" fill="#DCE6FD">Q3 2026 earnings call</text>
+  <text x="1216" y="3220" font-family="Helvetica, Arial, sans-serif" font-size="50" fill="#DCE6FD">On Thursday, October 15,</text>
+  <text x="1216" y="3290" font-family="Helvetica, Arial, sans-serif" font-size="50" fill="#DCE6FD">Meridian Labs will host its</text>
+  <text x="1216" y="3360" font-family="Helvetica, Arial, sans-serif" font-size="50" fill="#DCE6FD">Q3 2026 earnings call.</text>
+  <text x="1810" y="3220" font-family="Helvetica, Arial, sans-serif" font-size="50" fill="#DCE6FD">Streamed in real time</text>
+  <text x="1810" y="3290" font-family="Helvetica, Arial, sans-serif" font-size="50" fill="#DCE6FD">on the Meridian channel at</text>
+  <text x="1810" y="3360" font-family="Helvetica, Arial, sans-serif" font-size="50" fill="#DCE6FD">10:00 AM Eastern Time.</text>
+</svg>
