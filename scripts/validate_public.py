@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SLUG = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 REQUIRED = (
-    "SKILL.md", "README.md", "CHANGELOG.md", "LICENSE", "ASSET-LICENSE.md",
+    "SKILL.md", "README.md", "README.zh-CN.md", "CHANGELOG.md", "LICENSE", "ASSET-LICENSE.md",
     "REFERENCES.md", "release.json", ".gitignore", "scripts/validate_public.py", ".github/workflows/validate.yml", "evals/evals.json", "evals/schema.json",
     "design-system/routing.json", "design-system/compositions.json",
     "design-system/materials.json", "design-system/typography.json",
@@ -23,7 +23,7 @@ CATALOGS = (
     "design-system/typography.json",
     "design-system/constraints.json",
 )
-PUBLIC_TEXT = ("SKILL.md", "README.md", "CHANGELOG.md", "ASSET-LICENSE.md", "REFERENCES.md")
+PUBLIC_TEXT = ("SKILL.md", "README.md", "README.zh-CN.md", "CHANGELOG.md", "ASSET-LICENSE.md", "REFERENCES.md")
 PUBLIC_REQUIRED_FILES = set(REQUIRED)
 
 
@@ -81,6 +81,11 @@ for relative in PUBLIC_TEXT:
     text = (ROOT / relative).read_text(encoding="utf-8", errors="ignore").lower()
     if "placeholder" in text:
         fail(f"placeholder remains in {relative}")
+
+for relative in ("README.md", "README.zh-CN.md"):
+    text = (ROOT / relative).read_text(encoding="utf-8", errors="ignore")
+    if "README.zh-CN.md" not in text or "README.md" not in text:
+        fail(f"{relative} must link both language pages")
 
 examples = ROOT / "examples"
 example_files = [p for p in examples.iterdir() if p.is_file() and p.name != "README.md"] if examples.is_dir() else []

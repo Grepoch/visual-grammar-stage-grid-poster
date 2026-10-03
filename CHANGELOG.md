@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.0
+
+- Added a Simplified Chinese README (`README.zh-CN.md`) and language links on both pages.
+- The bilingual top-level docs are now part of the public package contract.
+
 ## 0.2.0
 
 - Rebuilt the design system around the stage-artifact-grid grammar: one full-bleed
